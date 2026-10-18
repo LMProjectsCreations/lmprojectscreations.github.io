@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Colly — Política de Privacidade / Privacy Policy</title>
+<meta name="description" content="Política de privacidade do Colly: o que o app coleta, para quê, bases legais, retenção e seus direitos (LGPD/GDPR). Colly privacy policy.">
 <style>
   :root { color-scheme: light dark; --text: #1c1c1e; --muted: #5e5e63; --bg: #fff; --line: #d1d1d6; --accent: #4f46e5; }
   @media (prefers-color-scheme: dark) { :root { --text: #f2f2f7; --muted: #aeaeb2; --bg: #000; --line: #38383a; --accent: #8b85ff; } }
@@ -24,24 +25,24 @@
 
 <section id="pt" lang="pt-BR">
 <h1>Política de Privacidade do Colly</h1>
-<p class="muted">Última atualização: 17 de outubro de 2026</p>
+<p class="muted">Última atualização: 18 de outubro de 2026</p>
 
-<p>O Colly é um app para organizar coleções, desenvolvido pela LM Softwares. Esta política explica quais dados o app usa e para quê.</p>
+<p>O Colly é um app para organizar coleções, desenvolvido pela LM Softwares, que é a controladora dos dados descritos aqui. Esta política explica quais dados o app usa, para quê, com qual base legal e por quanto tempo. O canal para qualquer pedido sobre seus dados, inclusive como canal do encarregado (LGPD), é o e-mail <a href="mailto:lmsoftwaresbr@gmail.com">lmsoftwaresbr@gmail.com</a>.</p>
 
 <h2>Suas coleções ficam no seu aparelho</h2>
 <p>Coleções, itens, fotos, anotações, valores, lista de desejos e empréstimos (incluindo o nome de quem pegou o item) são gravados apenas no seu aparelho. O Colly não tem conta, login nem servidor próprio, e nós não temos acesso a esses dados. Backups são arquivos que você mesmo salva onde escolher. Desinstalar o app apaga os dados do aparelho; o sistema Android pode guardar uma cópia no backup da sua conta Google, conforme as configurações do seu aparelho.</p>
 
 <h2>Busca online</h2>
-<p>Ao buscar um item online, o app envia somente o texto, o código ou o código de barras que você informou para a fonte consultada (por exemplo Open Library, BrasilAPI, Inventaire, MusicBrainz, Scryfall, TCGdex, YGOPRODeck, Yugipedia, BoardGameGeek, UPCitemdb, Open Products Facts, Wikidata, Grand Comics Database) e baixa as informações e imagens do item. Para itens sem imagem, o app pode buscar a capa no Cover Art Archive, na Wikipedia ou no Wikimedia Commons, enviando só o identificador público do item nesses catálogos. Um item adicionado sem internet é consultado do mesmo jeito quando a conexão volta. Essas fontes recebem também o endereço IP, como em qualquer acesso à internet, e seguem as próprias políticas de privacidade. O app também baixa índices de catálogo do GitHub.</p>
+<p>Ao buscar um item online, o app envia somente o texto, o código ou o código de barras que você informou para a fonte consultada (por exemplo Open Library, BrasilAPI, Inventaire, MusicBrainz, Scryfall, TCGdex, YGOPRODeck, Yugipedia, UPCitemdb, Open Products Facts, Wikidata) e baixa as informações e imagens do item (algumas imagens vêm também do Rebrickable). Para itens sem imagem, o app pode buscar a capa no Cover Art Archive, na Wikipedia ou no Wikimedia Commons, enviando só o identificador público do item nesses catálogos. Um item adicionado sem internet é consultado do mesmo jeito quando a conexão volta. Essas fontes recebem também o endereço IP, como em qualquer acesso à internet, e seguem as próprias políticas de privacidade. O app também baixa do GitHub índices de catálogo para busca sem internet, montados com dados públicos (por exemplo Wikidata, Open Library, Grand Comics Database e Rebrickable); nesses downloads nada sobre você é enviado além do endereço IP.</p>
 
 <h2>Câmera</h2>
-<p>A câmera é usada só quando você lê um código de barras ou tira a foto de um item. As fotos ficam no aparelho.</p>
+<p>A câmera é usada só quando você lê um código de barras ou tira a foto de um item. A leitura de códigos e de texto acontece no próprio aparelho, com o Google ML Kit; as imagens não saem do aparelho. O ML Kit pode enviar ao Google métricas técnicas de uso e desempenho do recurso (sem as imagens). As fotos ficam no aparelho.</p>
 
 <h2>Estatísticas de uso e relatórios de falha</h2>
 <p>Com a opção ligada, o app envia ao Google Firebase. No Espaço Econômico Europeu, no Reino Unido e em outras regiões onde a lei pede consentimento antes, nada é enviado até você permitir na pergunta que o app mostra; nas demais regiões, como o Brasil, a opção vem ligada e o app avisa isso na primeira tela:</p>
 <ul>
   <li><strong>Firebase Analytics:</strong> eventos de uso, como “coleção criada”, “item adicionado”, “item emprestado ou devolvido”, “itens movidos ou juntados”, “item da lista de desejos comprado”, “lista de desejos compartilhada”, “código conferido em Já tenho?” ou “estatísticas abertas”, com informações gerais (tipo de coleção predefinido, quantidades, número de dias de um empréstimo, tipo de campo alterado, idioma, tema). Nunca enviamos códigos de barras lidos, nomes, descrições, valores, nomes de quem pegou um item emprestado, textos digitados, buscas ou caminhos de arquivo. O Firebase registra também dados do aparelho (modelo, sistema, versão do app), país aproximado e um identificador da instalação do app. A coleta do ID de publicidade está desligada.</li>
-  <li><strong>Firebase Crashlytics:</strong> quando o app falha, um relatório com o tipo do erro, a pilha de execução, o modelo do aparelho, o sistema e a versão do app, ligado a um identificador da instalação. A mensagem do erro não é enviada.</li>
+  <li><strong>Firebase Crashlytics:</strong> quando o app falha, um relatório com o tipo do erro, a pilha de execução, o modelo do aparelho, o sistema e a versão do app, ligado a um identificador da instalação. Nos erros do código JavaScript do app a mensagem do erro não é enviada; em falhas do sistema ou de bibliotecas nativas, o relatório gerado pelo Crashlytics pode incluí-la.</li>
 </ul>
 <p>Usamos esses dados apenas para entender o uso do app e corrigir falhas. Você pode desligar o envio a qualquer momento em <em>Ajustes › Privacidade</em>. Mais detalhes: <a href="https://firebase.google.com/support/privacy">Privacidade no Firebase</a>.</p>
 
@@ -56,10 +57,30 @@
 <p>Se você enviar um comentário pelo app, o e-mail é aberto no seu aplicativo de e-mail com um diagnóstico que você pode ler e apagar antes de enviar: versão do app, sistema, modelo do aparelho, idioma e os últimos erros registrados. Só recebemos o que você enviar.</p>
 
 <h2>Crianças</h2>
-<p>O Colly não é direcionado a crianças menores de 13 anos e não coleta intencionalmente dados delas.</p>
+<p>O Colly não é direcionado a crianças menores de 13 anos e não coleta intencionalmente dados delas. Onde a lei pede o consentimento dos pais ou responsáveis para o tratamento de dados de crianças e adolescentes (como a LGPD, art. 14, e o GDPR, art. 8), o uso das estatísticas por menores deve ser autorizado por eles; o envio pode ser desligado em <em>Ajustes › Privacidade</em>.</p>
+
+<h2>Bases legais</h2>
+<ul>
+  <li><strong>Estatísticas e relatórios de falha:</strong> no Espaço Econômico Europeu, no Reino Unido e onde a lei exige, seu consentimento (LGPD art. 7, I; GDPR art. 6(1)(a)); nas demais regiões, como o Brasil, o legítimo interesse de manter o app funcionando e melhorá-lo (LGPD art. 7, IX; GDPR art. 6(1)(f)), com dados mínimos, sem nomes nem textos, e a opção de desligar a qualquer momento.</li>
+  <li><strong>Anúncios não personalizados:</strong> consentimento onde a lei exige (mensagem do Google); nas demais regiões, legítimo interesse em manter o app gratuito.</li>
+  <li><strong>Compras:</strong> execução do contrato de compra que você fez (LGPD art. 7, V; GDPR art. 6(1)(b)).</li>
+  <li><strong>Busca online e e-mail de contato:</strong> são ações que você inicia; os dados vão só para atender o seu pedido.</li>
+</ul>
+
+<h2>Transferência internacional</h2>
+<p>Google (Firebase, AdMob, ML Kit) e RevenueCat processam dados em servidores fora do Brasil e do Espaço Econômico Europeu, principalmente nos Estados Unidos. Essas empresas adotam cláusulas contratuais padrão e outras garantias previstas na LGPD (art. 33) e no GDPR (capítulo V). As fontes de catálogo consultadas também podem estar em outros países.</p>
+
+<h2>Por quanto tempo os dados ficam guardados</h2>
+<ul>
+  <li><strong>Firebase Analytics:</strong> eventos ficam guardados por até 14 meses e depois são apagados.</li>
+  <li><strong>Firebase Crashlytics:</strong> relatórios de falha ficam guardados por até 90 dias.</li>
+  <li><strong>RevenueCat:</strong> o histórico de compras fica guardado enquanto for necessário para confirmar e restaurar suas compras e cumprir obrigações legais.</li>
+  <li><strong>E-mails de contato:</strong> guardados enquanto forem necessários para responder; você pode pedir a exclusão.</li>
+  <li>Ao desligar as estatísticas, os relatórios de falha ainda não enviados são apagados do aparelho.</li>
+</ul>
 
 <h2>Seus direitos</h2>
-<p>Seus dados de coleção estão sob seu controle no aparelho. Sobre os dados de uso e de falhas, você pode desligar o envio nos Ajustes e pedir informações ou a exclusão pelo e-mail abaixo, conforme a Lei Geral de Proteção de Dados (LGPD) e leis equivalentes. Não vendemos dados.</p>
+<p>Seus dados de coleção estão sob seu controle no aparelho: você pode exportá-los, apagá-los ou desinstalar o app. Sobre os dados de uso, falhas e compras, você tem direito, conforme a LGPD (art. 18) e o GDPR (arts. 15 a 22), a: confirmar se tratamos seus dados e acessá-los; corrigi-los; pedir anonimização, bloqueio ou exclusão; portabilidade; saber com quem são compartilhados; se opor ao tratamento baseado em legítimo interesse; e revogar o consentimento a qualquer momento (desligando a opção em <em>Ajustes › Privacidade</em> ou em <em>Privacidade dos anúncios</em>). Como o app não tem conta, não sabemos quem você é e em geral não conseguimos ligar esses dados a uma pessoa: desligar a opção interrompe o envio, e o que já foi enviado é apagado nos prazos acima. Para qualquer pedido, escreva para o e-mail abaixo; responderemos em até 15 dias. Você também pode reclamar à Autoridade Nacional de Proteção de Dados (ANPD) ou, no EEE e no Reino Unido, à autoridade de proteção de dados do seu país. Não vendemos dados.</p>
 
 <h2>Alterações e contato</h2>
 <p>Se esta política mudar, a nova versão será publicada nesta página com a data atualizada. Dúvidas: <a href="mailto:lmsoftwaresbr@gmail.com">lmsoftwaresbr@gmail.com</a>.</p>
@@ -69,24 +90,24 @@
 
 <section id="en" lang="en">
 <h1>Colly Privacy Policy</h1>
-<p class="muted">Last updated: October 17, 2026</p>
+<p class="muted">Last updated: October 18, 2026</p>
 
-<p>Colly is an app for organizing collections, developed by LM Softwares. This policy explains what data the app uses and why.</p>
+<p>Colly is an app for organizing collections, developed by LM Softwares, the controller of the data described here. This policy explains what data the app uses, why, on what legal basis and for how long. For any request about your data, including as the data protection contact, write to <a href="mailto:lmsoftwaresbr@gmail.com">lmsoftwaresbr@gmail.com</a>.</p>
 
 <h2>Your collections stay on your device</h2>
 <p>Collections, items, photos, notes, values, the wish list and loans (including the name of who borrowed an item) are stored only on your device. Colly has no account, login or server of its own, and we have no access to this data. Backups are files you save wherever you choose. Uninstalling the app deletes the data from the device; Android may keep a copy in your Google account backup, depending on your device settings.</p>
 
 <h2>Online search</h2>
-<p>When you search for an item online, the app sends only the text, code or barcode you entered to the source being asked (for example Open Library, BrasilAPI, Inventaire, MusicBrainz, Scryfall, TCGdex, YGOPRODeck, Yugipedia, BoardGameGeek, UPCitemdb, Open Products Facts, Wikidata, Grand Comics Database) and downloads the item's information and images. For items without a picture, the app may look up the cover on the Cover Art Archive, Wikipedia or Wikimedia Commons, sending only the item's public identifier in those catalogs. An item added offline is looked up the same way once you are back online. These sources also receive your IP address, as with any internet request, and follow their own privacy policies. The app also downloads catalog indexes from GitHub.</p>
+<p>When you search for an item online, the app sends only the text, code or barcode you entered to the source being asked (for example Open Library, BrasilAPI, Inventaire, MusicBrainz, Scryfall, TCGdex, YGOPRODeck, Yugipedia, UPCitemdb, Open Products Facts, Wikidata) and downloads the item's information and images (some images also come from Rebrickable). For items without a picture, the app may look up the cover on the Cover Art Archive, Wikipedia or Wikimedia Commons, sending only the item's public identifier in those catalogs. An item added offline is looked up the same way once you are back online. These sources also receive your IP address, as with any internet request, and follow their own privacy policies. The app also downloads from GitHub catalog indexes for offline search, built from public data (for example Wikidata, Open Library, the Grand Comics Database and Rebrickable); these downloads send nothing about you beyond your IP address.</p>
 
 <h2>Camera</h2>
-<p>The camera is used only when you scan a barcode or take a photo of an item. Photos stay on the device.</p>
+<p>The camera is used only when you scan a barcode or take a photo of an item. Barcodes and text are read on the device itself, with Google ML Kit; the images never leave the device. ML Kit may send Google technical usage and performance metrics about the feature (not the images). Photos stay on the device.</p>
 
 <h2>Usage statistics and crash reports</h2>
 <p>With the option on, the app sends to Google Firebase. In the European Economic Area, the United Kingdom and other regions where the law asks for consent first, nothing is sent until you allow it when the app asks; elsewhere, such as Brazil, the option starts on and the app says so on its first screen:</p>
 <ul>
   <li><strong>Firebase Analytics:</strong> usage events such as “collection created”, “item added”, “item lent or returned”, “items moved or merged”, “wish list item bought”, “wish list shared”, “code checked in Do I have it?” or “statistics opened”, with general information (predefined collection type, counts, number of days of a loan, type of field changed, language, theme). We never send scanned barcodes, names, descriptions, values, the names of people who borrowed an item, typed text, searches or file paths. Firebase also records device data (model, operating system, app version), approximate country and an app installation identifier. Advertising ID collection is turned off.</li>
-  <li><strong>Firebase Crashlytics:</strong> when the app crashes, a report with the error type, the stack trace, the device model, operating system and app version, linked to an installation identifier. The error message is not sent.</li>
+  <li><strong>Firebase Crashlytics:</strong> when the app crashes, a report with the error type, the stack trace, the device model, operating system and app version, linked to an installation identifier. For errors in the app's JavaScript code the error message is not sent; for crashes in the system or in native libraries, the report Crashlytics creates may include it.</li>
 </ul>
 <p>We use this data only to understand how the app is used and to fix crashes. You can turn it off at any time in <em>Settings › Privacy</em>. More: <a href="https://firebase.google.com/support/privacy">Privacy in Firebase</a>.</p>
 
@@ -101,10 +122,30 @@
 <p>If you send feedback from the app, it opens in your email app with diagnostics you can read and delete before sending: app version, operating system, device model, language and the latest recorded errors. We only receive what you send.</p>
 
 <h2>Children</h2>
-<p>Colly is not directed to children under 13 and does not knowingly collect their data.</p>
+<p>Colly is not directed to children under 13 and does not knowingly collect their data. Where the law requires a parent's or guardian's consent to process a child's data (such as Brazil's LGPD, art. 14, and the GDPR, art. 8), their permission is needed for minors to send statistics; sending can be turned off in <em>Settings › Privacy</em>.</p>
+
+<h2>Legal bases</h2>
+<ul>
+  <li><strong>Statistics and crash reports:</strong> in the European Economic Area, the United Kingdom and wherever the law requires it, your consent (GDPR art. 6(1)(a); LGPD art. 7, I); elsewhere, such as Brazil, our legitimate interest in keeping the app working and improving it (GDPR art. 6(1)(f); LGPD art. 7, IX), with minimal data, no names or text, and the option to turn it off at any time.</li>
+  <li><strong>Non-personalized ads:</strong> consent where the law requires it (Google's message); elsewhere, our legitimate interest in keeping the app free.</li>
+  <li><strong>Purchases:</strong> performing the purchase contract you entered (GDPR art. 6(1)(b); LGPD art. 7, V).</li>
+  <li><strong>Online search and email contact:</strong> actions you start; the data is sent only to fulfil your request.</li>
+</ul>
+
+<h2>International transfers</h2>
+<p>Google (Firebase, AdMob, ML Kit) and RevenueCat process data on servers outside Brazil and the European Economic Area, mainly in the United States. These companies use standard contractual clauses and other safeguards provided for in the GDPR (chapter V) and the LGPD (art. 33). The catalog sources the app asks may also be in other countries.</p>
+
+<h2>How long data is kept</h2>
+<ul>
+  <li><strong>Firebase Analytics:</strong> events are kept for up to 14 months and then deleted.</li>
+  <li><strong>Firebase Crashlytics:</strong> crash reports are kept for up to 90 days.</li>
+  <li><strong>RevenueCat:</strong> purchase history is kept as long as needed to confirm and restore your purchases and to meet legal obligations.</li>
+  <li><strong>Contact emails:</strong> kept as long as needed to reply; you can ask for their deletion.</li>
+  <li>When you turn statistics off, crash reports not yet sent are deleted from the device.</li>
+</ul>
 
 <h2>Your rights</h2>
-<p>Your collection data is under your control on your device. For usage and crash data, you can turn sending off in Settings and request information or deletion at the email below, under the GDPR, Brazil's LGPD and similar laws. We do not sell data.</p>
+<p>Your collection data is under your control on your device: you can export it, delete it or uninstall the app. For usage, crash and purchase data you have the right, under the GDPR (arts. 15 to 22) and Brazil's LGPD (art. 18), to: confirm whether we process your data and access it; have it corrected; request its anonymization, restriction or erasure; data portability; know who it is shared with; object to processing based on legitimate interest; and withdraw consent at any time (by turning the option off in <em>Settings › Privacy</em> or <em>Ad Privacy</em>). As the app has no account, we do not know who you are and usually cannot link this data to a person: turning the option off stops sending, and what was sent is deleted within the periods above. For any request, write to the email below; we will reply within 15 days. You may also lodge a complaint with Brazil's data protection authority (ANPD) or, in the EEA and the UK, with your country's data protection authority. We do not sell data.</p>
 
 <h2>Changes and contact</h2>
 <p>If this policy changes, the new version will be published on this page with an updated date. Questions: <a href="mailto:lmsoftwaresbr@gmail.com">lmsoftwaresbr@gmail.com</a>.</p>
